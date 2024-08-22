@@ -1,0 +1,235 @@
+.host {
+  color: var(--accent);
+}
+.findAHostContainer {
+  position: relative;
+  line-height: 110%;
+  display: inline-block;
+  max-width: 100%;
+}
+.discoverTheBest {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 120%;
+  font-weight: 300;
+  font-family: inherit;
+}
+.findAHostForEveryJourneyParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.label {
+  position: relative;
+  line-height: 18px;
+  font-weight: 600;
+  display: inline-block;
+  mix-blend-mode: normal;
+  min-width: 122px;
+}
+.locationFilter {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.iconhome {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 20px;
+}
+.searchFilters {
+  flex: 1;
+  border-radius: var(--br-7xs);
+  background-color: var(--light-bg);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-base) var(--padding-2xs);
+  gap: var(--gap-xl);
+}
+.label1 {
+  position: relative;
+  line-height: 18px;
+  font-weight: 600;
+  display: inline-block;
+  mix-blend-mode: normal;
+  min-width: 66px;
+}
+.dateGuestInner {
+  flex: 1;
+  border-radius: var(--br-7xs);
+  background-color: var(--light-bg);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-5xs) var(--padding-2xs);
+  box-sizing: border-box;
+  min-width: 97px;
+  gap: var(--gap-xl);
+}
+.label2 {
+  position: relative;
+  line-height: 18px;
+  font-weight: 600;
+  display: inline-block;
+  mix-blend-mode: normal;
+  min-width: 76px;
+}
+.dateGuestInner1 {
+  flex: 1;
+  border-radius: var(--br-7xs);
+  background-color: var(--light-bg);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-5xs) var(--padding-2xs);
+  box-sizing: border-box;
+  min-width: 104px;
+  gap: var(--gap-xl);
+}
+.label3 {
+  position: relative;
+  line-height: 18px;
+  font-weight: 600;
+  display: inline-block;
+  mix-blend-mode: normal;
+  min-width: 45px;
+}
+.dateGuestInner2,
+.grouped {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.dateGuestInner2 {
+  width: 129px;
+  border-radius: var(--br-7xs);
+  background-color: var(--light-bg);
+  justify-content: space-between;
+  padding: var(--padding-5xs) var(--padding-2xs);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.grouped {
+  width: 467px;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  max-width: calc(100% - 789px);
+}
+.iconsearch {
+  height: 19px;
+  width: 19px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.button {
+  position: relative;
+  font-size: var(--font1-size);
+  letter-spacing: 0.46px;
+  line-height: 26px;
+  font-weight: 500;
+  font-family: var(--font-archivo);
+  color: var(--white);
+  text-align: center;
+  display: inline-block;
+  min-width: 55px;
+}
+.searchFlightsButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-smi) var(--padding-20xl);
+  background-color: var(--zinc-800);
+  border-radius: var(--br-7xs);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.searchFlightsButton:hover {
+  background-color: #975b00;
+}
+.component1,
+.frameGroup,
+.frameParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.component1 {
+  align-self: stretch;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.02);
+  border-radius: var(--br-3xs);
+  background-color: var(--white);
+  border: 0.7px solid var(--light-grey-border);
+  box-sizing: border-box;
+  overflow-x: auto;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-4xs) var(--padding-2xs);
+  gap: var(--gap-sm);
+  max-width: 100%;
+  font-size: var(--font1-size);
+  color: var(--dark);
+}
+.frameGroup,
+.frameParent {
+  width: 100%;
+  flex-direction: column;
+}
+.frameGroup {
+  align-items: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 1280px;
+}
+.frameParent {
+  position: relative;
+  align-items: center;
+  padding: var(--padding-31xl) var(--padding-61xl) var(--padding-11xl);
+  box-sizing: border-box;
+  background-image: url(/public/frame-38@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-21xl-4);
+  color: var(--color-black);
+  font-family: var(--font-archivo);
+}
+@media screen and (max-width: 767px) {
+  .findAHostContainer {
+    font-size: var(--font-size-13xl);
+    line-height: 36px;
+  }
+  .frameParent {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .findAHostContainer {
+    font-size: var(--font-size-5xl);
+    line-height: 27px;
+  }
+  .discoverTheBest {
+    font-size: var(--font1-size);
+    line-height: 19px;
+  }
+}

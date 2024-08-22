@@ -1,0 +1,134 @@
+.heresAnOverview {
+  align-self: stretch;
+  position: relative;
+  line-height: 100%;
+}
+.actionWrapperIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.actionContainer {
+  height: 96px;
+  width: 76px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.haveDedicatedFinancial,
+.registerABusiness {
+  align-self: stretch;
+  position: relative;
+  line-height: 140%;
+}
+.haveDedicatedFinancial {
+  font-size: var(--font1-size);
+}
+.businessSetup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.setupYourAccount {
+  position: relative;
+  font-size: var(--font1-size);
+  line-height: 140%;
+  font-weight: 500;
+  font-family: var(--font-sf-pro-display);
+  color: var(--accent1);
+  text-align: left;
+}
+.setupActionChild {
+  height: 8.9px;
+  width: 11.5px;
+  position: relative;
+}
+.businessActions,
+.setupAction {
+  display: flex;
+  justify-content: flex-start;
+}
+.setupAction {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs) var(--padding-base) var(--padding-5xs)
+    var(--padding-mini);
+  background-color: rgba(3, 238, 125, 0.1);
+  border-radius: 17px;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-smi);
+  white-space: nowrap;
+}
+.setupAction:hover {
+  background-color: rgba(0, 186, 74, 0.1);
+}
+.businessActions {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-3xs);
+  min-width: 280px;
+}
+.accountActions {
+  flex: 0.9475;
+  border-radius: 11px;
+  background-color: rgba(0, 199, 238, 0.05);
+  border: 1px solid #00c7ee;
+  box-sizing: border-box;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: var(--padding-3xl) var(--padding-10xl) var(--padding-3xl)
+    var(--padding-11xl);
+  gap: 23px 21px;
+  min-width: 440px;
+  cursor: pointer;
+}
+.accountActions,
+.accountDetails,
+.accountOverview {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.accountDetails {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0 var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+  gap: 12px 10px;
+  font-size: var(--font-size-xl);
+  color: var(--dark1);
+}
+.accountOverview {
+  width: 100%;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-sm);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--light-text1);
+  font-family: var(--font-sf-pro-display);
+}
+@media screen and (max-width: 767px) {
+  .accountActions {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .registerABusiness {
+    font-size: var(--font1-size);
+    line-height: 22px;
+  }
+}

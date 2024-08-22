@@ -1,0 +1,119 @@
+.learnMore,
+.text {
+  position: relative;
+  display: inline-block;
+}
+.text {
+  flex: 1;
+  line-height: 140%;
+  min-width: 280px;
+  max-width: 100%;
+}
+.learnMore {
+  text-decoration: none;
+  font-size: var(--font-size-smi);
+  font-family: var(--font);
+  color: var(--accent1);
+  min-width: 74px;
+  white-space: nowrap;
+}
+.band {
+  width: 100%;
+  border-radius: var(--br-7xs);
+  background-color: rgba(0, 227, 119, 0.1);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  gap: 20px 18px;
+  max-width: 925px;
+}
+.title {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-11xl);
+  line-height: 130%;
+  font-weight: 500;
+  font-family: inherit;
+  color: var(--darker);
+}
+.formContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  gap: var(--gap-xs);
+  max-width: 100%;
+}
+.pleaseEnterYour {
+  align-self: stretch;
+  position: relative;
+  line-height: 140%;
+}
+.rowone {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+  gap: 16px 14px;
+}
+.cols,
+.rowone,
+.userForm {
+  align-self: stretch;
+  max-width: 100%;
+}
+.cols {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.userForm {
+  gap: var(--gap-xs);
+}
+.contentWrapper,
+.question,
+.userForm {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.question {
+  align-self: stretch;
+  gap: var(--gap-smi);
+}
+.contentWrapper {
+  width: 100%;
+  position: relative;
+  padding: 0 0 var(--padding-9xl);
+  box-sizing: border-box;
+  gap: 28px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font1-size);
+  color: var(--dark1);
+  font-family: var(--font-sf-pro-display);
+}
+@media screen and (max-width: 767px) {
+  .title {
+    font-size: var(--font-size-5xl);
+    line-height: 31px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .title {
+    font-size: var(--font-size-lg);
+    line-height: 23px;
+  }
+}

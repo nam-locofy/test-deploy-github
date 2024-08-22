@@ -1,0 +1,116 @@
+.avatarImageIcon {
+  height: 58.5px;
+  width: 59.1px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.businessicon {
+  width: 11px;
+  height: 9px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.businessbadge {
+  width: 19px;
+  height: 19px;
+  border-radius: var(--br-lg);
+  background-color: var(--accent1);
+  border: 2px solid var(--white);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-8xs) var(--padding-11xs);
+}
+.d {
+  height: 9px;
+  position: relative;
+  line-height: 130%;
+  font-weight: 600;
+  display: inline-block;
+}
+.letterbadge {
+  align-self: stretch;
+  height: 19px;
+  border-radius: var(--br-lg);
+  background-color: var(--color-whitesmoke-400);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-9xs) var(--padding-10xs);
+  box-sizing: border-box;
+}
+.avatarContainer,
+.badge {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-3xs);
+}
+.badge {
+  margin: 0 !important;
+  position: absolute;
+  right: 13.45px;
+  bottom: 0.5px;
+  border-radius: var(--br-lg);
+  background-color: var(--accent1);
+  border: 2px solid var(--white);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1;
+}
+.avatarContainer {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xs);
+  position: relative;
+}
+.joseph {
+  margin: 0;
+}
+.userName {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 130%;
+  font-family: var(--font-roboto);
+  color: var(--dark1);
+  display: -webkit-inline-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.avatar {
+  position: absolute;
+  top: 42px;
+  left: 0;
+  width: 85px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 105px;
+}
+.root {
+  width: 674px;
+  height: 705px;
+  background-color: var(--white);
+  max-width: 100%;
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--font-size-smi-1);
+  color: var(--light-text1);
+  font-family: var(--font-sf-pro-display);
+}

@@ -1,0 +1,319 @@
+.textGetNewLineChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--white);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.paymentMethod {
+  text-decoration: none;
+  position: absolute;
+  top: 24px;
+  left: 32px;
+  letter-spacing: 0.02em;
+  line-height: 48px;
+  font-weight: 600;
+  color: inherit;
+  z-index: 1;
+}
+.bNIMandiriLogos,
+.bNIMandiriLogos1 {
+  position: absolute;
+  top: 180px;
+  left: 0;
+  border-radius: 50%;
+  border: 0 solid var(--color-darkslategray-600);
+  box-sizing: border-box;
+  width: 24px;
+  height: 24px;
+  z-index: 1;
+}
+.bNIMandiriLogos1 {
+  top: 0;
+}
+.bNIMandiri {
+  width: 24px;
+  height: 204px;
+  position: relative;
+}
+.installmentMethods {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  height: 316px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xs) 0 0;
+  box-sizing: border-box;
+}
+.image40Icon,
+.image42Icon,
+.image43Icon {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 133px;
+  max-height: 100%;
+  width: 100px;
+  object-fit: cover;
+  z-index: 1;
+}
+.image42Icon,
+.image43Icon {
+  left: 266px;
+}
+.image43Icon {
+  left: 0;
+}
+.danamonUOBStandardLogos {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 366px;
+  height: 100px;
+}
+.creditCardCicilan {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: 0.02em;
+  line-height: 32px;
+  z-index: 1;
+}
+.danamonUOBStandard {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 594px;
+}
+.danamonUOBStandardCircle {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  border-radius: 50%;
+  border: 0 solid var(--color-darkslategray-600);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.danamonUOBStandardSelecto {
+  position: absolute;
+  top: 0;
+  left: 654px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.creditCardMethods {
+  position: absolute;
+  top: 180px;
+  left: 0;
+  width: 100%;
+  height: 140px;
+}
+.bankTransferMethod {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 40px;
+  width: 678px;
+}
+.creditCardSelection {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.creditCard1,
+.image44Icon {
+  position: absolute;
+  left: 0;
+  z-index: 1;
+}
+.image44Icon {
+  top: 40px;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+.creditCard1 {
+  text-decoration: none;
+  top: 0;
+  letter-spacing: 0.02em;
+  line-height: 32px;
+  color: inherit;
+  display: inline-block;
+  min-width: 110px;
+}
+.creditCardDetails {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 40px;
+  width: 110px;
+}
+.creditCard {
+  position: absolute;
+  top: 0;
+  left: 38px;
+  width: 150px;
+  height: 140px;
+}
+.goPay {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 32px;
+  display: inline-block;
+  min-width: 76px;
+  z-index: 1;
+}
+.gOPAYDetails,
+.gOPAYOption {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.gOPAYDetails {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-2xs);
+}
+.gOPAYOption {
+  height: 100%;
+  bottom: 0;
+  width: 100px;
+}
+.gOPAYSelector {
+  position: absolute;
+  top: 0;
+  left: 162px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.gOPAYMethod {
+  height: 140px;
+  flex: 1;
+  position: relative;
+}
+.gOPAYMethodWrapper {
+  position: absolute;
+  top: 180px;
+  left: 0;
+  width: 188px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+}
+.creditCardGOPAY {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 723px;
+  width: 195px;
+}
+.image37Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  z-index: 1;
+}
+.krdivo {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 32px;
+  display: inline-block;
+  min-width: 65px;
+  z-index: 1;
+}
+.krdivoDetails {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-11xs);
+}
+.image37Parent,
+.krdivoMethod {
+  position: absolute;
+  top: 140px;
+  left: 0;
+  width: 100%;
+  height: 140px;
+}
+.image37Parent {
+  top: 40px;
+  left: 923px;
+  width: 100px;
+  height: 280px;
+}
+.paymentMethods,
+.textGetNewLine {
+  text-align: left;
+  color: var(--color-darkslategray-600);
+  font-family: var(--font-taviraj);
+}
+.paymentMethods {
+  position: absolute;
+  top: 112px;
+  left: 32px;
+  width: 1023px;
+  height: 320px;
+  font-size: var(--font-size-xl);
+}
+.textGetNewLine {
+  width: 1110px;
+  height: 464px;
+  background-color: var(--white);
+  max-width: 100%;
+  line-height: normal;
+  letter-spacing: normal;
+  font-size: var(--font-size-17xl);
+}
+@media screen and (max-width: 767px) {
+  .paymentMethod {
+    font-size: var(--font-size-10xl);
+    line-height: 38px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .paymentMethod {
+    font-size: var(--font-size-3xl);
+    line-height: 29px;
+  }
+  .creditCard1,
+  .creditCardCicilan,
+  .goPay,
+  .krdivo {
+    font-size: var(--font1-size);
+    line-height: 26px;
+  }
+}

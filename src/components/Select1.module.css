@@ -1,0 +1,42 @@
+.placeholder {
+  flex: 1;
+  position: relative;
+  line-height: 21px;
+  display: inline-block;
+  max-width: calc(100% - 34px);
+}
+.icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.placeholderParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+}
+.select {
+  flex: 1;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--darker-gray-border);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-smi) var(--padding-6xs) var(--padding-smi)
+    var(--padding-2xs);
+  min-width: 260px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font1-size);
+  color: var(--light-text1);
+  font-family: var(--font-inter);
+}

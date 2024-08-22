@@ -1,0 +1,107 @@
+.text,
+.title {
+  position: relative;
+  display: inline-block;
+}
+.title {
+  line-height: 130%;
+  font-weight: 600;
+  min-width: 111px;
+}
+.text {
+  font-size: var(--font1-size);
+  line-height: 21px;
+  font-family: var(--font-sf-pro-display);
+  color: var(--accent1);
+  text-align: left;
+  min-width: 72px;
+}
+.actionContent,
+.button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-7xs) var(--padding-sm);
+  background-color: rgba(3, 238, 125, 0.09);
+  border-radius: 27px;
+  justify-content: center;
+}
+.button:hover {
+  background-color: rgba(0, 186, 74, 0.09);
+}
+.actionContent {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.icon,
+.text1 {
+  position: relative;
+}
+.icon {
+  width: 24px;
+  height: 24px;
+}
+.text1 {
+  align-self: stretch;
+  line-height: 130%;
+  display: -webkit-inline-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.quickactioncard {
+  width: 130px;
+  border-radius: var(--br-xs);
+  background-color: var(--white);
+  border: 1px solid var(--light-grey-border1);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-mini);
+  gap: var(--gap-sm);
+}
+.actionContentParent,
+.quickActions {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.quickActions {
+  width: 1280px;
+  height: 112px;
+  overflow-x: auto;
+  flex-shrink: 0;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  text-align: center;
+  font-size: var(--font1-size);
+  font-family: var(--font-inter);
+}
+.actionContentParent {
+  width: 100%;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-sm);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--dark1);
+  font-family: var(--font-sf-pro-display);
+}
+@media screen and (max-width: 450px) {
+  .actionContent {
+    flex-wrap: wrap;
+  }
+}

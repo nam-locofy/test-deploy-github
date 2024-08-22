@@ -1,0 +1,96 @@
+.accountType {
+  align-self: stretch;
+  position: relative;
+  line-height: 100%;
+}
+.icon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.cardNumber {
+  position: relative;
+  line-height: 100%;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 99px;
+}
+.cardNumberContainer,
+.content {
+  display: flex;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.cardNumberContainer {
+  flex-direction: row;
+  align-items: center;
+  font-size: var(--font-size-lg);
+  color: var(--dark1);
+}
+.content {
+  width: 348px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 var(--padding-3xs) 0 0;
+  box-sizing: border-box;
+  max-width: calc(100% - 20px);
+}
+.iconbars {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.topSection {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-0);
+  row-gap: 20px;
+}
+.balance {
+  position: relative;
+  font-size: var(--font-size-13xl);
+  line-height: 100%;
+  color: var(--darker);
+  white-space: nowrap;
+}
+.accountcard {
+  flex: 1;
+  width: 100%;
+  position: relative;
+  border-radius: var(--br-xs);
+  background-color: var(--white);
+  border: 1px solid var(--light-grey-border1);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-xl) var(--padding-lgi);
+  min-width: 280px;
+  min-height: 170px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font1-size);
+  color: var(--light-text1);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 767px) {
+  .balance {
+    font-size: var(--font-size-7xl);
+    line-height: 26px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .balance {
+    font-size: var(--font-size-lgi);
+    line-height: 19px;
+  }
+}

@@ -1,0 +1,38 @@
+.icon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+.paySpotify {
+  margin: 0;
+}
+.text {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  line-height: 130%;
+  display: -webkit-inline-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.quickactioncard {
+  align-self: stretch;
+  width: 130px;
+  border-radius: var(--br-xs);
+  background-color: var(--white);
+  border: 1px solid var(--light-grey-border1);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-mini);
+  gap: var(--gap-sm);
+  text-align: center;
+  font-size: var(--font1-size);
+  color: var(--dark1);
+  font-family: var(--font-sf-pro-display);
+}

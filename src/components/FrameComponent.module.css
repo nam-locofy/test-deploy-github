@@ -1,0 +1,76 @@
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-21xl);
+  background-color: var(--white1);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.enterYourEmail {
+  position: relative;
+  line-height: 24px;
+  z-index: 1;
+}
+.enterYourEmailWrapper {
+  position: absolute;
+  top: 0;
+  left: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lg) 0 0;
+}
+.frameItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-21xl);
+  background-color: var(--text-heading-color);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.getAQuote {
+  position: absolute;
+  top: 18px;
+  left: 25px;
+  font-size: var(--font1-size);
+  line-height: 24px;
+  font-weight: 600;
+  font-family: var(--font);
+  color: var(--white1);
+  text-align: left;
+  display: inline-block;
+  min-width: 97px;
+  z-index: 1;
+}
+.rectangleGroup,
+.rectangleParent {
+  border-radius: var(--br-21xl);
+  z-index: 1;
+}
+.rectangleGroup {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--text-heading-color);
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 291px;
+  width: 147px;
+}
+.rectangleParent {
+  width: 100%;
+  height: 60px;
+  position: relative;
+  background-color: var(--white1);
+  text-align: left;
+  font-size: var(--font1-size);
+  color: var(--color-gray-900);
+  font-family: var(--font);
+}

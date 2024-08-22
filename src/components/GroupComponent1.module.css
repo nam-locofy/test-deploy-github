@@ -1,0 +1,41 @@
+.answerQuestions {
+  margin: 0;
+  position: absolute;
+  top: 97px;
+  left: calc(50% - 164.5px);
+  font-size: inherit;
+  line-height: 34px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.vuesaxlinearmessagesIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 75px;
+  height: 75px;
+}
+.loremIpsumDolor {
+  position: absolute;
+  top: 153px;
+  left: 0;
+  font-size: var(--font1-size);
+  line-height: 24px;
+  display: inline-block;
+  width: 329px;
+}
+.answerQuestionsParent {
+  width: 100%;
+  height: 225px;
+  position: relative;
+  text-align: left;
+  font-size: var(--font-size-9xl);
+  color: var(--color-black);
+  font-family: var(--font);
+}
+@media screen and (max-width: 450px) {
+  .answerQuestions {
+    font-size: var(--font-size-3xl);
+    line-height: 27px;
+  }
+}

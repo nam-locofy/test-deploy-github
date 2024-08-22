@@ -1,0 +1,114 @@
+.chandlerBing,
+.welcomeBack {
+  position: relative;
+  line-height: 100%;
+}
+.welcomeBack {
+  align-self: stretch;
+}
+.chandlerBing {
+  font-size: 39.3px;
+  color: var(--darker);
+}
+.userGreeting {
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-8xs);
+}
+.requestPayment {
+  position: relative;
+  font-size: var(--font1-size);
+  line-height: 100%;
+  font-family: var(--font-sf-pro-display);
+  color: var(--dark1);
+  text-align: left;
+  display: inline-block;
+  min-width: 118px;
+}
+.paymentRequest {
+  cursor: pointer;
+  border: 1px solid var(--accent1);
+  padding: var(--padding-sm) var(--padding-10xl);
+  background-color: var(--white);
+  border-radius: var(--br-9xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.paymentRequest:hover {
+  background-color: var(--color-gainsboro-100);
+  border: 1px solid var(--color-mediumspringgreen-100);
+  box-sizing: border-box;
+}
+.sendMoney {
+  position: relative;
+  font-size: var(--font1-size);
+  line-height: 100%;
+  font-family: var(--font-sf-pro-display);
+  color: var(--dark1);
+  text-align: left;
+  display: inline-block;
+  min-width: 85px;
+}
+.moneyTransferChild {
+  height: 8.9px;
+  width: 11.5px;
+  position: relative;
+}
+.actions,
+.moneyTransfer,
+.userGreetingParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.moneyTransfer {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base) var(--padding-11xl);
+  background-color: transparent;
+  border-radius: var(--br-9xs);
+  background: linear-gradient(93.87deg, #00e377, #00c7ee);
+  justify-content: center;
+  gap: var(--gap-3xs);
+  white-space: nowrap;
+}
+.actions,
+.userGreetingParent {
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.userGreetingParent {
+  width: 100%;
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--dark1);
+  font-family: var(--font-sf-pro-display);
+}
+@media screen and (max-width: 767px) {
+  .chandlerBing {
+    font-size: 31px;
+    line-height: 31px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .chandlerBing {
+    font-size: var(--font-size-5xl);
+    line-height: 24px;
+  }
+  .actions {
+    flex-wrap: wrap;
+  }
+}

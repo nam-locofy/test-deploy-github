@@ -1,0 +1,291 @@
+.imageIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 295px;
+  height: 300px;
+  object-fit: cover;
+}
+.superhostIcon {
+  position: absolute;
+  top: 6px;
+  left: 7px;
+  width: 6.7px;
+  height: 10px;
+}
+.superhost {
+  position: absolute;
+  top: 7px;
+  left: 15.7px;
+  letter-spacing: -0.01em;
+  line-height: 8px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.heartIcon,
+.superhostTag {
+  position: absolute;
+  top: 10px;
+  display: none;
+}
+.superhostTag {
+  left: 10px;
+  border-radius: var(--br-smi);
+  background-color: var(--white);
+  width: 78.7px;
+  height: 22px;
+}
+.heartIcon {
+  left: 238px;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+.listingSubtitle,
+.listingTitle {
+  position: absolute;
+  left: 0;
+  letter-spacing: 0.02em;
+}
+.listingTitle {
+  top: 0;
+  line-height: 16px;
+  font-weight: 600;
+}
+.listingSubtitle {
+  top: 20px;
+  font-size: var(--font-size-sm);
+  line-height: 14px;
+  color: var(--light-text);
+  display: inline-block;
+  min-width: 127px;
+}
+.listingTitleParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 212px;
+  height: 34px;
+}
+.rating {
+  position: relative;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 22px;
+}
+.firstRating {
+  position: absolute;
+  top: 12px;
+  left: 221px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-7xs);
+  font-size: var(--font-size-sm);
+}
+.starIcon {
+  width: 13px;
+  height: 13px;
+  position: relative;
+}
+.firstStarIcon {
+  position: absolute;
+  top: 10.5px;
+  left: 248px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-2xs-5);
+}
+.itemTitleDetails {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 34px;
+}
+.night,
+.price {
+  letter-spacing: 0.02em;
+  display: inline-block;
+}
+.price {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 600;
+  min-width: 45px;
+  white-space: nowrap;
+}
+.night {
+  position: relative;
+  min-width: 37px;
+}
+.nightWrapper {
+  position: absolute;
+  top: 0;
+  left: 47px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs-5) 0 0;
+  font-size: var(--font-size-sm);
+  color: var(--light-text);
+}
+.itemPriceBlock {
+  position: absolute;
+  top: 55.5px;
+  left: 0;
+  width: 84px;
+  height: 21px;
+  font-size: var(--font-size-lgi);
+}
+.itemTitleInfo {
+  height: 76.5px;
+  flex: 1;
+  position: relative;
+}
+.firstListingInfo {
+  position: absolute;
+  top: 316px;
+  left: 0;
+  width: 277px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-base);
+  box-sizing: border-box;
+  font-size: var(--font1-size);
+  color: var(--dark);
+}
+.trendIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 18px;
+  height: 18px;
+  object-fit: cover;
+}
+.priceChart {
+  position: absolute;
+  top: 1.5px;
+  left: 24px;
+  letter-spacing: 0.02em;
+}
+.bestTime {
+  position: absolute;
+  top: 369px;
+  left: 185px;
+  width: 94px;
+  height: 18px;
+  display: none;
+  font-size: var(--font-size-sm);
+}
+.listingItem {
+  align-self: stretch;
+  height: 408px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--white);
+  border: 1px solid var(--light-grey-border);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.listingItemWrapper {
+  position: absolute;
+  top: 195px;
+  left: 139px;
+  width: 295px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+}
+.listingSubtitle1 {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  font-size: var(--font-size-sm);
+  letter-spacing: 0.02em;
+  line-height: 14px;
+  color: var(--light-text);
+}
+.listingTitleGroup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 209px;
+  height: 34px;
+}
+.ratingWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs-5) 0 0;
+}
+.starIcon1 {
+  position: absolute;
+  top: 0;
+  left: 27px;
+  width: 13px;
+  height: 13px;
+}
+.frameGroup {
+  align-self: stretch;
+  height: 17.5px;
+  position: relative;
+}
+.itemPriceRow,
+.listingContainer,
+.listingContainer1 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.itemPriceRow {
+  top: 10.5px;
+  left: 221px;
+  width: 40px;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-7xs);
+  font-size: var(--font-size-sm);
+}
+.listingContainer,
+.listingContainer1 {
+  top: 195px;
+  left: 887px;
+  width: 295px;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 0;
+}
+.listingContainer1 {
+  left: 1261px;
+}
+.root {
+  width: 1624px;
+  height: 740px;
+  background-color: var(--white);
+  max-width: 100%;
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--accent);
+  font-family: var(--font-archivo);
+}

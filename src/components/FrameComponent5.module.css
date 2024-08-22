@@ -1,0 +1,368 @@
+.frameChild {
+  margin: 0;
+  width: 785px;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.textWrapper {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  width: 1015px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+}
+.theTransferOf {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: inherit;
+  line-height: 46px;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  width: 497px;
+}
+.loremIpsumDolor {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  max-width: 100%;
+}
+.loremIpsumDolorSitAmetConWrapper {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  width: 475px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font1-size);
+}
+.theTransferOfRealEstateParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 190px;
+  max-width: 100%;
+}
+.readMore {
+  position: relative;
+  font-size: var(--font1-size);
+  line-height: 120%;
+  font-family: var(--font);
+  color: var(--text-heading-color);
+  text-align: left;
+  display: inline-block;
+  min-width: 86px;
+}
+.bookNowButton {
+  cursor: pointer;
+  border: 1px solid var(--gray-color);
+  padding: var(--padding-mini) var(--padding-15xl);
+  background-color: var(--white1);
+  position: absolute;
+  top: 0;
+  left: 177px;
+  border-radius: var(--br-21xl);
+  box-sizing: border-box;
+  height: 60px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.bookNowButton:hover {
+  background-color: var(--color-gainsboro-100);
+  border: 1px solid var(--color-gray-100);
+  box-sizing: border-box;
+}
+.bookNow {
+  position: relative;
+  font-size: var(--font1-size);
+  line-height: 120%;
+  font-family: var(--font);
+  color: var(--white1);
+  text-align: left;
+  display: inline-block;
+  min-width: 83px;
+}
+.bookNowButton1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mini) var(--padding-16xl);
+  background-color: var(--text-heading-color);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-21xl);
+  height: 60px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.bookNowButton1:hover {
+  background-color: #525252;
+}
+.bookNowButtonParent {
+  height: 60px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.frameParent1,
+.frameWrapper1 {
+  position: absolute;
+  left: 0;
+  max-width: 100%;
+}
+.frameWrapper1 {
+  top: 235px;
+  width: 334px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.frameParent1 {
+  top: 0;
+  width: 497px;
+  height: 295px;
+}
+.customers,
+.offices {
+  line-height: 120%;
+  display: inline-block;
+}
+.customers {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 88px;
+}
+.offices {
+  position: relative;
+  min-width: 56px;
+}
+.officesWrapper {
+  position: absolute;
+  top: 0;
+  left: 212px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-sm) 0 0;
+}
+.students {
+  position: absolute;
+  top: 0;
+  left: 406px;
+  line-height: 120%;
+  display: inline-block;
+  min-width: 71px;
+}
+.customersParent {
+  position: absolute;
+  top: 85px;
+  left: 0;
+  width: 477px;
+  height: 19px;
+}
+.officeCategoryLabel {
+  position: relative;
+  line-height: 120%;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 108px;
+}
+.officeCategoryLabelWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs) 0 0;
+}
+.div {
+  left: 203px;
+  line-height: 120%;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 114px;
+}
+.div,
+.div1,
+.frameParent3 {
+  position: absolute;
+  top: 0;
+}
+.div1 {
+  left: 406px;
+  line-height: 120%;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 113px;
+}
+.frameParent3 {
+  left: 0;
+  width: 100%;
+  height: 80px;
+  font-size: var(--font2-size);
+}
+.frameParent2 {
+  height: 104px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.frameWrapper2 {
+  position: absolute;
+  top: 375px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font1-size);
+}
+.frameDiv {
+  align-self: stretch;
+  height: 479px;
+  position: relative;
+  max-width: 100%;
+}
+.frameWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 520px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-15xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.footerShapeLeft,
+.footerShapeRight {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-sm);
+  width: 100%;
+  height: 100%;
+}
+.footerShapeLeft {
+  object-fit: cover;
+}
+.footerShapeRight {
+  background: linear-gradient(
+    115.89deg,
+    rgba(193, 222, 232, 0.7) 9.15%,
+    rgba(255, 255, 255, 0) 52.17%,
+    rgba(251, 217, 185, 0.7) 98.84%
+  );
+  z-index: 1;
+}
+.footerShapeLeftParent {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 695px;
+  width: 550px;
+}
+.frameContainer {
+  position: absolute;
+  top: 165px;
+  left: 20px;
+  width: 1245px;
+  height: 577px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 38px;
+}
+.frameGroup,
+.frameParent {
+  position: relative;
+  max-width: 100%;
+}
+.frameGroup {
+  height: 742px;
+  width: 1265px;
+}
+.frameParent {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  text-align: center;
+  font-size: var(--font-size);
+  color: var(--color-black);
+  font-family: var(--font);
+}
+@media screen and (max-width: 767px) {
+  .frameChild {
+    font-size: var(--font-size-21xl);
+    line-height: 48px;
+  }
+  .theTransferOf {
+    font-size: var(--font-size-11xl);
+    line-height: 36px;
+  }
+  .div,
+  .div1,
+  .officeCategoryLabel {
+    font-size: var(--font-size-35xl);
+    line-height: 64px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .frameChild {
+    font-size: var(--font-size-11xl);
+    line-height: 36px;
+  }
+  .theTransferOf {
+    font-size: 23px;
+    line-height: 27px;
+  }
+  .div,
+  .div1,
+  .officeCategoryLabel {
+    font-size: var(--font-size-21xl);
+    line-height: 48px;
+  }
+}

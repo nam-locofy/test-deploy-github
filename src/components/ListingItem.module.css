@@ -1,0 +1,214 @@
+.imageIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 295px;
+  height: 300px;
+  object-fit: cover;
+}
+.superhostIcon {
+  position: absolute;
+  top: 6px;
+  left: 7px;
+  width: 6.7px;
+  height: 10px;
+}
+.superhost {
+  position: absolute;
+  top: 7px;
+  left: 15.7px;
+  letter-spacing: -0.01em;
+  line-height: 8px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.heartIcon,
+.superhostTag {
+  position: absolute;
+  top: 10px;
+  display: none;
+}
+.superhostTag {
+  left: 10px;
+  border-radius: var(--br-smi);
+  background-color: var(--white);
+  width: 78.7px;
+  height: 22px;
+  font-size: var(--font-size-xs);
+}
+.heartIcon {
+  left: 238px;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+.rating {
+  position: relative;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 22px;
+}
+.ratingWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs-5) 0 0;
+}
+.starIcon {
+  position: absolute;
+  top: 0;
+  left: 27px;
+  width: 13px;
+  height: 13px;
+}
+.frameParent {
+  align-self: stretch;
+  height: 17.5px;
+  position: relative;
+}
+.secondDetails {
+  position: absolute;
+  top: 0;
+  left: 221px;
+  width: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xs-5) 0 0;
+  box-sizing: border-box;
+}
+.listingSubtitle,
+.listingTitle {
+  position: absolute;
+  left: 0;
+  letter-spacing: 0.02em;
+  display: inline-block;
+}
+.listingTitle {
+  top: 0;
+  line-height: 16px;
+  font-weight: 600;
+  min-width: 36px;
+}
+.listingSubtitle {
+  top: 20px;
+  font-size: var(--font-size-sm);
+  line-height: 14px;
+  color: var(--light-text);
+  min-width: 127px;
+}
+.listingTitleParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 127px;
+  height: 34px;
+}
+.night,
+.price {
+  letter-spacing: 0.02em;
+  display: inline-block;
+}
+.price {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 600;
+  min-width: 45px;
+  white-space: nowrap;
+}
+.night {
+  position: relative;
+  min-width: 37px;
+}
+.nightWrapper {
+  position: absolute;
+  top: 0;
+  left: 47px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs-5) 0 0;
+  font-size: var(--font-size-sm);
+  color: var(--light-text);
+}
+.frameGroup,
+.priceParent {
+  position: absolute;
+  top: 55.5px;
+  left: 0;
+  width: 84px;
+  height: 21px;
+  font-size: var(--font-size-lgi);
+}
+.frameGroup {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  width: 127px;
+  font-size: var(--font1-size);
+}
+.secondContent {
+  height: 76.5px;
+  flex: 1;
+  position: relative;
+}
+.secondListingInfo {
+  position: absolute;
+  top: 316px;
+  left: 0;
+  width: 277px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-base);
+  box-sizing: border-box;
+  color: var(--dark);
+}
+.trendIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 18px;
+  height: 18px;
+  object-fit: cover;
+}
+.priceChart {
+  position: absolute;
+  top: 1.5px;
+  left: 24px;
+  letter-spacing: 0.02em;
+}
+.bestTime {
+  position: absolute;
+  top: 369px;
+  left: 185px;
+  width: 94px;
+  height: 18px;
+  display: none;
+}
+.listingItem {
+  position: absolute;
+  top: 195px;
+  left: 513px;
+  border-radius: var(--br-3xs);
+  background-color: var(--white);
+  border: 1px solid var(--light-grey-border);
+  box-sizing: border-box;
+  width: 295px;
+  height: 408px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--accent);
+  font-family: var(--font-archivo);
+}

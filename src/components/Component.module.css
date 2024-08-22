@@ -1,0 +1,41 @@
+.componentChild {
+  width: 64px;
+  height: 64px;
+  position: relative;
+}
+.syncToBuilder,
+.syncYourDesigns {
+  align-self: stretch;
+  position: relative;
+}
+.syncToBuilder {
+  font-weight: 600;
+}
+.syncYourDesigns {
+  height: 46px;
+  font-size: var(--font-size-smi);
+  letter-spacing: 0.01em;
+  line-height: 145%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.component {
+  width: 314px;
+  border-radius: var(--br-3xs);
+  background-color: var(--studio-lightmode-lightbg-f8f9fb);
+  border: 1px solid var(--studio-lightmode-midseparator-dee3eb);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lg) var(--padding-lgi);
+  gap: var(--gap-xl);
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font1-size);
+  color: var(--color-darkslategray-200);
+  font-family: var(--font-inter);
+}

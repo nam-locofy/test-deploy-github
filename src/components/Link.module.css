@@ -1,0 +1,76 @@
+.discoverTheOtherworldly {
+  margin: 0;
+}
+.discoverTheOtherworldlyContainer1 {
+  width: 100%;
+}
+.discoverTheOtherworldlyContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 24px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  width: 274px;
+  height: 43.5px;
+}
+.wegoIconpng {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.wegoTravelBlog {
+  position: absolute;
+  top: 0.5px;
+  left: 24px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 16px;
+  min-width: 100px;
+}
+.chainImageSeven {
+  position: absolute;
+  top: 78px;
+  left: 0;
+  width: 124px;
+  height: 16.5px;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-200);
+}
+.chainImageFive,
+.image1Icon {
+  position: absolute;
+  top: 234px;
+  left: 16px;
+  width: 273.8px;
+  height: 94.5px;
+}
+.image1Icon {
+  top: 12px;
+  width: 336px;
+  height: 196px;
+  object-fit: cover;
+}
+.link {
+  position: absolute;
+  height: calc(100% - 16px);
+  top: 8px;
+  bottom: 8px;
+  left: 8px;
+  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.1);
+  border-radius: var(--br-5xs);
+  background-color: var(--white);
+  width: 368px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font1-size);
+  color: var(--color-gray-400);
+  font-family: var(--font-inter);
+}

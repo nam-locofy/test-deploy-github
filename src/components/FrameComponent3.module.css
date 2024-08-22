@@ -1,0 +1,85 @@
+.frameChild {
+  position: relative;
+  line-height: 120%;
+}
+.textWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 503px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+}
+.frameItem {
+  margin: 0;
+  position: absolute;
+  top: 35px;
+  left: 0;
+  font-size: var(--font-size);
+  line-height: 120%;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  width: 788px;
+}
+.frameContainer {
+  height: 95px;
+  width: 808px;
+  position: relative;
+  max-width: 100%;
+}
+.frameWrapper {
+  position: absolute;
+  top: 0;
+  left: 260px;
+  width: 1047px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameDiv {
+  position: absolute;
+  top: 140px;
+  left: 0;
+  width: 100%;
+  height: 225px;
+}
+.frameGroup,
+.frameParent {
+  position: relative;
+  max-width: 100%;
+}
+.frameGroup {
+  height: 365px;
+  flex: 1;
+}
+.frameParent {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-17xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font1-size);
+  color: var(--color-black);
+  font-family: var(--font);
+}
+@media screen and (max-width: 767px) {
+  .frameItem {
+    font-size: var(--font-size-21xl);
+    line-height: 48px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .frameItem {
+    font-size: var(--font-size-11xl);
+    line-height: 36px;
+  }
+}

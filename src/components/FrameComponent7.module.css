@@ -1,0 +1,46 @@
+.infoImage {
+  position: absolute;
+  top: 11.5px;
+  left: 20px;
+  border-radius: var(--br-11xs);
+  background-color: var(--color-gray-300);
+  width: 16px;
+  height: 16px;
+}
+.formShape {
+  position: absolute;
+  top: 15.5px;
+  left: 25px;
+  background-color: var(--white);
+  width: 6px;
+  height: 9px;
+  z-index: 1;
+}
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  border-radius: var(--br-5xl);
+  width: 16px;
+  height: 11.5px;
+}
+.buildIcon,
+.infoImageParent {
+  height: 27.5px;
+  width: 56px;
+  position: relative;
+  flex-shrink: 0;
+}
+.buildIcon {
+  height: 17.1px;
+  width: 67.9px;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  gap: var(--gap-3xs);
+  z-index: 1;
+}

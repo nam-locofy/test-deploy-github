@@ -1,0 +1,270 @@
+.frameChild {
+  width: 24px;
+  height: 30px;
+  position: relative;
+}
+.frameItem,
+.frameWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.frameWrapper {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-aliceblue-200);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.frameItem {
+  border-radius: 50%;
+  background-color: var(--color-aliceblue-100);
+  border: 0 solid var(--studio-lightmode-lightbg-f8f9fb);
+  box-sizing: border-box;
+}
+.emptyShape {
+  position: absolute;
+  top: 3.6px;
+  left: 11.6px;
+  letter-spacing: 0.01em;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 9px;
+  z-index: 1;
+}
+.ellipseParent {
+  position: absolute;
+  top: -9.9px;
+  left: 46.4px;
+  width: 31.3px;
+  height: 31.3px;
+  z-index: 1;
+}
+.frameGroup {
+  width: 64px;
+  height: 64px;
+  position: relative;
+}
+.getThePlugin {
+  position: relative;
+  font-weight: 600;
+}
+.getTheFigma {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-smi);
+  letter-spacing: 0.01em;
+  line-height: 145%;
+}
+.getThePluginAndConnectParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.logosfigmaIcon {
+  height: 20px;
+  width: 12.7px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.figmaPlugin {
+  position: relative;
+  font-size: var(--font-size-smi);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--white);
+  text-align: left;
+  display: inline-block;
+  min-width: 80px;
+}
+.logosfigmaParent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-2xs) var(--padding-6xl);
+  background-color: var(--color-darkslategray-400);
+  border-radius: var(--br-11xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+  white-space: nowrap;
+}
+.logosfigmaParent:hover {
+  background-color: var(--color-dimgray-200);
+}
+.simpleIconsadobexd {
+  height: 20px;
+  width: 20px;
+  position: relative;
+}
+.adobeXdPlugin {
+  position: relative;
+  font-size: var(--font-size-smi);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--white);
+  text-align: left;
+  display: inline-block;
+  min-width: 105px;
+}
+.frameDiv,
+.simpleIconsadobexdParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.simpleIconsadobexdParent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-2xs) var(--padding-4xs);
+  background-color: var(--color-purple);
+  border-radius: var(--br-11xl);
+  align-items: center;
+  gap: var(--gap-6xs);
+  white-space: nowrap;
+}
+.simpleIconsadobexdParent:hover {
+  background-color: var(--color-mediumvioletred);
+}
+.frameDiv {
+  align-items: flex-start;
+  gap: var(--gap-7xs);
+}
+.frameContainer,
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameContainer {
+  align-self: stretch;
+  gap: var(--gap-3xs);
+  font-size: var(--font1-size);
+  color: var(--color-darkslategray-200);
+  font-family: var(--font-inter);
+}
+.frameParent {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--studio-lightmode-lightbg-f8f9fb);
+  border: 1px solid var(--studio-lightmode-midseparator-dee3eb);
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: var(--padding-lg) var(--padding-lgi);
+  gap: var(--gap-base);
+  min-width: 262px;
+  max-width: 100%;
+}
+.frameInner {
+  width: 44.9px;
+  height: 30.6px;
+  position: relative;
+}
+.b,
+.ellipseGroup {
+  position: absolute;
+  z-index: 1;
+}
+.b {
+  top: 3.6px;
+  left: 11.7px;
+  letter-spacing: 0.01em;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 9px;
+}
+.ellipseGroup {
+  top: -9.9px;
+  left: 46px;
+  width: 31.3px;
+  height: 31.3px;
+}
+.onvertingYourDesign {
+  font-weight: 600;
+}
+.convertingYourDesignContainer {
+  position: relative;
+  line-height: 19.5px;
+}
+.convertingYourDesignToCodeParent,
+.frameParent1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.convertingYourDesignToCodeParent {
+  align-self: stretch;
+  gap: var(--gap-7xs);
+  font-size: var(--font1-size);
+  color: var(--color-darkslategray-200);
+  font-family: var(--font-inter);
+}
+.frameParent1 {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--studio-lightmode-lightbg-f8f9fb);
+  border: 1px solid var(--studio-lightmode-midseparator-dee3eb);
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: var(--padding-xl) var(--padding-lgi);
+  gap: var(--gap-base);
+  min-width: 262px;
+  min-height: 235px;
+  max-width: 100%;
+}
+.groupIcon {
+  width: 30.9px;
+  height: 37px;
+  position: relative;
+}
+.ellipseContainer {
+  position: absolute;
+  top: -9.9px;
+  left: 46.7px;
+  width: 31.3px;
+  height: 31.3px;
+  z-index: 1;
+}
+.syncToBuilder {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 117px;
+}
+.component {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--studio-darkmode-maincta-457eff);
+  font-family: var(--font-roboto);
+}
+@media screen and (max-width: 767px) {
+  .frameDiv {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .frameParent1 {
+    min-height: auto;
+  }
+  .component {
+    flex-wrap: wrap;
+  }
+}

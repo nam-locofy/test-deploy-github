@@ -1,0 +1,47 @@
+.linkChild {
+  height: 94px;
+  width: 98px;
+  position: relative;
+  object-fit: cover;
+}
+.link {
+  margin: 0 !important;
+  position: absolute;
+  width: 27.43%;
+  top: calc(50% - 131px);
+  right: 36.27%;
+  left: 36.3%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.article {
+  align-self: stretch;
+  padding: var(--padding-10xl) var(--padding-base) var(--padding-base);
+  box-sizing: border-box;
+  position: relative;
+  min-height: 320px;
+}
+.article,
+.divcardBoxScG1378g0,
+.divcardBoxScG1378g0marg {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divcardBoxScG1378g0 {
+  align-self: stretch;
+  border-radius: var(--br-xs);
+  background-color: var(--white);
+  border: 1px solid #e5e3e8;
+}
+.divcardBoxScG1378g0marg {
+  width: 375.3px;
+  max-width: 100%;
+  padding: 0 var(--padding-base) 0 0;
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+}

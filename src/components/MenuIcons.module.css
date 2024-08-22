@@ -1,0 +1,39 @@
+.iconbusiness {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.text {
+  position: relative;
+  line-height: 100%;
+  white-space: pre-wrap;
+}
+.iconbusinessParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-20xl) 0 0;
+  gap: var(--gap-5xs);
+}
+.menuIconsChild {
+  height: 17px;
+  width: 17px;
+  position: relative;
+  display: none;
+}
+.menuIcons {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-whitesmoke-100);
+  border: 1px solid var(--accent1);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-lg) var(--padding-mini);
+  gap: var(--gap-4xs);
+  text-align: left;
+  font-size: var(--font1-size);
+  color: var(--light-text1);
+  font-family: var(--font-inter);
+}

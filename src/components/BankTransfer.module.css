@@ -1,0 +1,115 @@
+.bniCicilan0,
+.image46Icon {
+  position: absolute;
+  left: 0;
+  z-index: 1;
+}
+.image46Icon {
+  top: 40px;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+.bniCicilan0 {
+  top: 0;
+  letter-spacing: 0.02em;
+  line-height: 32px;
+}
+.bankTransferOption {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 144px;
+}
+.mandiriSelector {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  border-radius: 50%;
+  border: 0 solid var(--color-darkslategray-600);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.mandiriSelection {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.mandiriCicilan0 {
+  text-decoration: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: 0.02em;
+  line-height: 32px;
+  color: inherit;
+  z-index: 1;
+}
+.mandiri,
+.mandiriLabel {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 40px;
+  width: 184px;
+}
+.mandiri {
+  left: 203px;
+  width: 224px;
+}
+.image45Icon {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.bankTransferImage {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-8xs);
+}
+.bankTransferDetails,
+.bankTransferSelectionParent {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 40px;
+  width: 135px;
+}
+.bankTransferSelectionParent {
+  left: 486px;
+  width: 175px;
+}
+.bankTransfer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 661px;
+  height: 140px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkslategray-600);
+  font-family: var(--font-taviraj);
+}
+@media screen and (max-width: 450px) {
+  .bniCicilan0,
+  .mandiriCicilan0 {
+    font-size: var(--font1-size);
+    line-height: 26px;
+  }
+}
